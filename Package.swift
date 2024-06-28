@@ -19,21 +19,21 @@ let package = Package(
         )
     ],
     dependencies: [
-        // .package(url: "/path/to/module/b", branch: "main")
+         .package(url: "git@github.com:brunoorocha/tuist-demo-module-b.git", branch: "main")
     ],
     targets: [
         .target(
             name: "ModuleAFramework",
             dependencies: [
                 "ModuleAFrameworkInterface",
-                // .product(name: "ModuleB", package: "module-b")
+                 .product(name: "ModuleBFramework", package: "tuist-demo-module-b")
             ],
             path: "Sources/Framework"
         ),
         .target(
             name: "ModuleAFrameworkInterface",
             dependencies: [
-                // .product(name: "ModuleB", package: "module-b")
+                 .product(name: "ModuleBFramework", package: "tuist-demo-module-b")
             ],
             path: "Sources/Interface"
         ),

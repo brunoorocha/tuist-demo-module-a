@@ -5,7 +5,7 @@ let proje = Project.project(
     with: "ModuleAFramework",
     bundleId: "com.my-company.modulea",
     dependencies: [
-        // .external(name: "ModuleB")
+         .external(name: "ModuleBFramework")
     ],
     disableBundleAccessors: true,
     disableSynthesizedResourceAccessors: true

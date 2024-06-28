@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "tuist-demo-module-b",
+      "kind" : "remoteSourceControl",
+      "location" : "git@github.com:brunoorocha/tuist-demo-module-b.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "4c18f2b5d7b375152221bd56328e62181844a3cb"
+      }
+    }
+  ],
+  "version" : 2
+}
